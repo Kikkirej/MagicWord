@@ -7,7 +7,11 @@ import net.kikkirej.magicword.actions.NedryAction;
 
 public class MeinKeyListener implements KeyListener {
 
-	int[] chars = {80, 76, 69, 65, 83, 69};
+	int[] chars = {KeyEvent.VK_P,
+			KeyEvent.VK_I,
+			KeyEvent.VK_Z,
+			KeyEvent.VK_Z,
+			KeyEvent.VK_A};
 		
 	
 	int index = 0;
